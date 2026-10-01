@@ -1,0 +1,18 @@
+Collecting cloudinary
+  Downloading cloudinary-1.46.0-py3-none-any.whl.metadata (8.1 kB)
+Collecting six (from cloudinary)
+  Using cached six-1.17.0-py2.py3-none-any.whl.metadata (1.7 kB)
+Collecting urllib3>=1.26.5 (from cloudinary)
+  Downloading urllib3-2.7.0-py3-none-any.whl.metadata (6.9 kB)
+Collecting certifi (from cloudinary)
+  Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+Downloading cloudinary-1.46.0-py3-none-any.whl (153 kB)
+Downloading urllib3-2.7.0-py3-none-any.whl (131 kB)
+Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+Using cached six-1.17.0-py2.py3-none-any.whl (11 kB)
+Installing collected packages: urllib3, six, certifi, cloudinary
+
+Successfully installed certifi-2026.7.22 cloudinary-1.46.0 six-1.17.0 urllib3-2.7.0
+
+[notice] A new release of pip is available: 25.3 -> 26.2.1
+[notice] To update, run: C:\Users\hp\Downloads\NOOR - Copy\venv\Scripts\python.exe -m pip install --upgrade pip

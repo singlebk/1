@@ -1,0 +1,43 @@
+name: Build KPN Android App
+
+on:
+  push:
+    branches: [ "main", "master" ]
+  workflow_dispatch: # This allows you to trigger the build manually from GitHub
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    # Tell GitHub that all commands should run inside the kpn_android folder
+    defaults:
+      run:
+        working-directory: ./kpn_android
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Set up JDK 17
+      uses: actions/setup-java@v4
+      with:
+        java-version: '17'
+        distribution: 'temurin'
+        cache: gradle
+
+    - name: Generate Gradle Wrapper
+      # Since we don't have gradlew in the repo, we ask the Ubuntu server to generate it
+      run: gradle wrapper --gradle-version 8.4
+
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+
+    - name: Build Debug APK
+      # This compiles your actual Android Application!
+      run: ./gradlew assembleDebug
+
+    - name: Upload Finished APK
+      uses: actions/upload-artifact@v4
+      with:
+        name: KPN-Android-App
+        path: kpn_android/app/build/outputs/apk/debug/app-debug.apk

@@ -1,0 +1,192 @@
+Collecting asgiref==3.10.0 (from -r requirements.txt (line 1))
+  Downloading asgiref-3.10.0-py3-none-any.whl.metadata (9.3 kB)
+Collecting certifi==2025.10.5 (from -r requirements.txt (line 2))
+  Downloading certifi-2025.10.5-py3-none-any.whl.metadata (2.5 kB)
+Requirement already satisfied: charset-normalizer==3.4.4 in c:\users\hp\downloads\noor - copy\venv\lib\site-packages (from -r requirements.txt (line 3)) (3.4.4)
+Collecting cloudinary==1.44.1 (from -r requirements.txt (line 4))
+  Using cached cloudinary-1.44.1-py3-none-any.whl.metadata (8.0 kB)
+Collecting crispy-bootstrap5==0.7 (from -r requirements.txt (line 5))
+  Downloading crispy_bootstrap5-0.7-py3-none-any.whl.metadata (3.5 kB)
+Collecting Cython==3.1.6 (from -r requirements.txt (line 6))
+  Downloading cython-3.1.6-cp314-cp314-win_amd64.whl.metadata (4.1 kB)
+Collecting dj-database-url==2.3.0 (from -r requirements.txt (line 7))
+  Downloading dj_database_url-2.3.0-py3-none-any.whl.metadata (12 kB)
+Collecting Django==5.2.7 (from -r requirements.txt (line 8))
+  Downloading django-5.2.7-py3-none-any.whl.metadata (4.1 kB)
+Collecting django-appconf==1.1.0 (from -r requirements.txt (line 9))
+  Downloading django_appconf-1.1.0-py3-none-any.whl.metadata (5.2 kB)
+Collecting django-axes==8.0.0 (from -r requirements.txt (line 10))
+  Downloading django_axes-8.0.0-py3-none-any.whl.metadata (40 kB)
+Collecting django-cloudinary-storage==0.3.0 (from -r requirements.txt (line 11))
+  Using cached django_cloudinary_storage-0.3.0-py3-none-any.whl.metadata (17 kB)
+Collecting django-crispy-forms==2.1 (from -r requirements.txt (line 12))
+  Downloading django_crispy_forms-2.1-py3-none-any.whl.metadata (5.0 kB)
+Collecting django-environ==0.12.0 (from -r requirements.txt (line 13))
+  Using cached django_environ-0.12.0-py2.py3-none-any.whl.metadata (12 kB)
+Collecting django-imagekit==6.0.0 (from -r requirements.txt (line 14))
+  Downloading django_imagekit-6.0.0-py3-none-any.whl.metadata (18 kB)
+Collecting django-pwa==2.0.1 (from -r requirements.txt (line 15))
+  Downloading django_pwa-2.0.1-py3-none-any.whl.metadata (9.9 kB)
+Collecting django-ratelimit==4.1.0 (from -r requirements.txt (line 16))
+  Downloading django_ratelimit-4.1.0-py2.py3-none-any.whl.metadata (2.3 kB)
+Collecting django-storages==1.14.6 (from -r requirements.txt (line 17))
+  Downloading django_storages-1.14.6-py3-none-any.whl.metadata (4.7 kB)
+Collecting gunicorn==23.0.0 (from -r requirements.txt (line 18))
+  Using cached gunicorn-23.0.0-py3-none-any.whl.metadata (4.4 kB)
+Collecting idna==3.11 (from -r requirements.txt (line 19))
+  Using cached idna-3.11-py3-none-any.whl.metadata (8.4 kB)
+Collecting imagekitio==4.2.0 (from -r requirements.txt (line 20))
+  Downloading imagekitio-4.2.0-py3-none-any.whl.metadata (51 kB)
+Collecting lxml==6.0.2 (from -r requirements.txt (line 21))
+  Downloading lxml-6.0.2-cp314-cp314-win_amd64.whl.metadata (3.7 kB)
+Collecting packaging==25.0 (from -r requirements.txt (line 22))
+  Using cached packaging-25.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting pilkit==3.0 (from -r requirements.txt (line 23))
+  Downloading pilkit-3.0-py3-none-any.whl.metadata (4.0 kB)
+Collecting pillow==11.3.0 (from -r requirements.txt (line 24))
+  Downloading pillow-11.3.0-cp314-cp314-win_amd64.whl.metadata (9.2 kB)
+Requirement already satisfied: psycopg2-binary==2.9.11 in c:\users\hp\downloads\noor - copy\venv\lib\site-packages (from -r requirements.txt (line 25)) (2.9.11)
+Collecting python-decouple==3.8 (from -r requirements.txt (line 26))
+  Using cached python_decouple-3.8-py3-none-any.whl.metadata (14 kB)
+Collecting python-docx==1.2.0 (from -r requirements.txt (line 27))
+  Downloading python_docx-1.2.0-py3-none-any.whl.metadata (2.0 kB)
+Collecting python-dotenv==1.0.0 (from -r requirements.txt (line 28))
+  Downloading python_dotenv-1.0.0-py3-none-any.whl.metadata (21 kB)
+Collecting qrcode==8.0 (from -r requirements.txt (line 29))
+  Downloading qrcode-8.0-py3-none-any.whl.metadata (17 kB)
+Collecting reportlab==4.4.4 (from -r requirements.txt (line 30))
+  Downloading reportlab-4.4.4-py3-none-any.whl.metadata (1.7 kB)
+Collecting requests==2.32.5 (from -r requirements.txt (line 31))
+  Using cached requests-2.32.5-py3-none-any.whl.metadata (4.9 kB)
+Collecting requests-toolbelt==1.0.0 (from -r requirements.txt (line 32))
+  Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl.metadata (14 kB)
+Collecting setuptools==80.9.0 (from -r requirements.txt (line 33))
+  Using cached setuptools-80.9.0-py3-none-any.whl.metadata (6.6 kB)
+Requirement already satisfied: six==1.17.0 in c:\users\hp\downloads\noor - copy\venv\lib\site-packages (from -r requirements.txt (line 34)) (1.17.0)
+Collecting sqlparse==0.5.3 (from -r requirements.txt (line 35))
+  Using cached sqlparse-0.5.3-py3-none-any.whl.metadata (3.9 kB)
+Collecting typing_extensions==4.15.0 (from -r requirements.txt (line 36))
+  Using cached typing_extensions-4.15.0-py3-none-any.whl.metadata (3.3 kB)
+Collecting tzdata==2025.2 (from -r requirements.txt (line 37))
+  Using cached tzdata-2025.2-py2.py3-none-any.whl.metadata (1.4 kB)
+Collecting urllib3==2.5.0 (from -r requirements.txt (line 38))
+  Using cached urllib3-2.5.0-py3-none-any.whl.metadata (6.5 kB)
+Collecting wheel==0.45.1 (from -r requirements.txt (line 39))
+  Downloading wheel-0.45.1-py3-none-any.whl.metadata (2.3 kB)
+Collecting whitenoise==6.11.0 (from -r requirements.txt (line 40))
+  Using cached whitenoise-6.11.0-py3-none-any.whl.metadata (3.7 kB)
+Collecting colorama (from qrcode==8.0->-r requirements.txt (line 29))
+  Using cached colorama-0.4.6-py2.py3-none-any.whl.metadata (17 kB)
+Downloading asgiref-3.10.0-py3-none-any.whl (24 kB)
+Downloading certifi-2025.10.5-py3-none-any.whl (163 kB)
+Using cached cloudinary-1.44.1-py3-none-any.whl (147 kB)
+Downloading crispy_bootstrap5-0.7-py3-none-any.whl (22 kB)
+Downloading cython-3.1.6-cp314-cp314-win_amd64.whl (2.7 MB)
+   ---------------------------------------- 2.7/2.7 MB 721.1 kB/s  0:00:03
+Downloading dj_database_url-2.3.0-py3-none-any.whl (7.8 kB)
+Downloading django-5.2.7-py3-none-any.whl (8.3 MB)
+   ---------------------------------------- 8.3/8.3 MB 848.5 kB/s  0:00:09
+Downloading django_appconf-1.1.0-py3-none-any.whl (6.4 kB)
+Downloading django_axes-8.0.0-py3-none-any.whl (68 kB)
+Using cached django_cloudinary_storage-0.3.0-py3-none-any.whl (18 kB)
+Downloading django_crispy_forms-2.1-py3-none-any.whl (31 kB)
+Using cached django_environ-0.12.0-py2.py3-none-any.whl (19 kB)
+Downloading django_imagekit-6.0.0-py3-none-any.whl (39 kB)
+Downloading django_pwa-2.0.1-py3-none-any.whl (453 kB)
+Downloading django_ratelimit-4.1.0-py2.py3-none-any.whl (11 kB)
+Downloading django_storages-1.14.6-py3-none-any.whl (33 kB)
+Using cached gunicorn-23.0.0-py3-none-any.whl (85 kB)
+Using cached idna-3.11-py3-none-any.whl (71 kB)
+Downloading imagekitio-4.2.0-py3-none-any.whl (321 kB)
+Using cached urllib3-2.5.0-py3-none-any.whl (129 kB)
+Downloading lxml-6.0.2-cp314-cp314-win_amd64.whl (4.1 MB)
+   ---------------------------------------- 4.1/4.1 MB 975.9 kB/s  0:00:04
+Using cached packaging-25.0-py3-none-any.whl (66 kB)
+Downloading pilkit-3.0-py3-none-any.whl (20 kB)
+Downloading pillow-11.3.0-cp314-cp314-win_amd64.whl (7.1 MB)
+   ---------------------------------------- 7.1/7.1 MB 1.4 MB/s  0:00:05
+Using cached python_decouple-3.8-py3-none-any.whl (9.9 kB)
+Downloading python_docx-1.2.0-py3-none-any.whl (252 kB)
+Downloading python_dotenv-1.0.0-py3-none-any.whl (19 kB)
+Downloading qrcode-8.0-py3-none-any.whl (45 kB)
+Downloading reportlab-4.4.4-py3-none-any.whl (2.0 MB)
+   ---------------------------------------- 2.0/2.0 MB 1.1 MB/s  0:00:01
+Using cached requests-2.32.5-py3-none-any.whl (64 kB)
+Downloading requests_toolbelt-1.0.0-py2.py3-none-any.whl (54 kB)
+Using cached setuptools-80.9.0-py3-none-any.whl (1.2 MB)
+Using cached sqlparse-0.5.3-py3-none-any.whl (44 kB)
+Using cached typing_extensions-4.15.0-py3-none-any.whl (44 kB)
+Using cached tzdata-2025.2-py2.py3-none-any.whl (347 kB)
+Downloading wheel-0.45.1-py3-none-any.whl (72 kB)
+Using cached whitenoise-6.11.0-py3-none-any.whl (20 kB)
+Using cached colorama-0.4.6-py2.py3-none-any.whl (25 kB)
+Installing collected packages: python-decouple, whitenoise, wheel, urllib3, tzdata, typing_extensions, sqlparse, setuptools, python-dotenv, pillow, packaging, lxml, idna, django-ratelimit, django-environ, Cython, colorama, certifi, asgiref, requests, reportlab, qrcode, python-docx, pilkit, gunicorn, Django, cloudinary, requests-toolbelt, django-storages, django-pwa, django-crispy-forms, django-cloudinary-storage, django-axes, django-appconf, dj-database-url, imagekitio, django-imagekit, crispy-bootstrap5
+  Attempting uninstall: whitenoise
+    Found existing installation: whitenoise 6.12.0
+    Uninstalling whitenoise-6.12.0:
+      Successfully uninstalled whitenoise-6.12.0
+  Attempting uninstall: urllib3
+    Found existing installation: urllib3 2.7.0
+    Uninstalling urllib3-2.7.0:
+      Successfully uninstalled urllib3-2.7.0
+  Attempting uninstall: tzdata
+    Found existing installation: tzdata 2025.3
+    Uninstalling tzdata-2025.3:
+      Successfully uninstalled tzdata-2025.3
+  Attempting uninstall: sqlparse
+    Found existing installation: sqlparse 0.5.5
+    Uninstalling sqlparse-0.5.5:
+      Successfully uninstalled sqlparse-0.5.5
+  Attempting uninstall: python-dotenv
+    Found existing installation: python-dotenv 1.2.2
+    Uninstalling python-dotenv-1.2.2:
+      Successfully uninstalled python-dotenv-1.2.2
+  Attempting uninstall: pillow
+    Found existing installation: pillow 12.1.1
+    Uninstalling pillow-12.1.1:
+      Successfully uninstalled pillow-12.1.1
+  Attempting uninstall: packaging
+    Found existing installation: packaging 26.0
+    Uninstalling packaging-26.0:
+      Successfully uninstalled packaging-26.0
+  Attempting uninstall: certifi
+    Found existing installation: certifi 2026.7.22
+    Uninstalling certifi-2026.7.22:
+      Successfully uninstalled certifi-2026.7.22
+  Attempting uninstall: asgiref
+    Found existing installation: asgiref 3.11.1
+    Uninstalling asgiref-3.11.1:
+      Successfully uninstalled asgiref-3.11.1
+  Attempting uninstall: reportlab
+    Found existing installation: reportlab 4.4.10
+    Uninstalling reportlab-4.4.10:
+      Successfully uninstalled reportlab-4.4.10
+  Attempting uninstall: gunicorn
+    Found existing installation: gunicorn 25.1.0
+    Uninstalling gunicorn-25.1.0:
+      Successfully uninstalled gunicorn-25.1.0
+  Attempting uninstall: Django
+    Found existing installation: Django 6.0.2
+    Uninstalling Django-6.0.2:
+      Successfully uninstalled Django-6.0.2
+  Attempting uninstall: cloudinary
+    Found existing installation: cloudinary 1.46.0
+    Uninstalling cloudinary-1.46.0:
+      Successfully uninstalled cloudinary-1.46.0
+  Attempting uninstall: django-crispy-forms
+    Found existing installation: django-crispy-forms 2.5
+    Uninstalling django-crispy-forms-2.5:
+      Successfully uninstalled django-crispy-forms-2.5
+  Attempting uninstall: dj-database-url
+    Found existing installation: dj-database-url 3.1.2
+    Uninstalling dj-database-url-3.1.2:
+      Successfully uninstalled dj-database-url-3.1.2
+  Attempting uninstall: crispy-bootstrap5
+    Found existing installation: crispy-bootstrap5 2025.6
+    Uninstalling crispy-bootstrap5-2025.6:
+      Successfully uninstalled crispy-bootstrap5-2025.6
+
+Successfully installed Cython-3.1.6 Django-5.2.7 asgiref-3.10.0 certifi-2025.10.5 cloudinary-1.44.1 colorama-0.4.6 crispy-bootstrap5-0.7 dj-database-url-2.3.0 django-appconf-1.1.0 django-axes-8.0.0 django-cloudinary-storage-0.3.0 django-crispy-forms-2.1 django-environ-0.12.0 django-imagekit-6.0.0 django-pwa-2.0.1 django-ratelimit-4.1.0 django-storages-1.14.6 gunicorn-23.0.0 idna-3.11 imagekitio-4.2.0 lxml-6.0.2 packaging-25.0 pilkit-3.0 pillow-11.3.0 python-decouple-3.8 python-docx-1.2.0 python-dotenv-1.0.0 qrcode-8.0 reportlab-4.4.4 requests-2.32.5 requests-toolbelt-1.0.0 setuptools-80.9.0 sqlparse-0.5.3 typing_extensions-4.15.0 tzdata-2025.2 urllib3-2.5.0 wheel-0.45.1 whitenoise-6.11.0
+
+[notice] A new release of pip is available: 25.3 -> 26.2.1
+[notice] To update, run: C:\Users\hp\Downloads\NOOR - Copy\venv\Scripts\python.exe -m pip install --upgrade pip
