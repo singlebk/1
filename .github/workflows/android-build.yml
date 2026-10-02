@@ -33,8 +33,18 @@ jobs:
       run: chmod +x gradlew
 
     - name: Build Debug APK
-      # This compiles your actual Android Application!
-      run: ./gradlew assembleDebug --stacktrace 2>&1 | tail -100
+      run: ./gradlew assembleDebug 2>&1 | tee /tmp/build.log; exit ${PIPESTATUS[0]}
+
+    - name: Show Kotlin Errors on Failure
+      if: failure()
+      run: grep -E "^e:|error:|FAILED|unresolved reference|overload resolution" /tmp/build.log | head -80 || tail -60 /tmp/build.log
+
+    - name: Upload Build Log
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: build-log
+        path: /tmp/build.log
 
     - name: Upload Finished APK
       uses: actions/upload-artifact@v4
