@@ -34,7 +34,7 @@ jobs:
 
     - name: Build Debug APK
       # This compiles your actual Android Application!
-      run: ./gradlew assembleDebug
+      run: ./gradlew assembleDebug --stacktrace 2>&1 | tail -100
 
     - name: Upload Finished APK
       uses: actions/upload-artifact@v4
